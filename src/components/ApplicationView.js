@@ -1,7 +1,9 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import { Locations } from "./locations";
-import { Products } from "./Products"
+import { EmployeeForm } from "./employees/employeeForm";
+import { Employees } from "./employees/employees";
+import { Locations } from "./locations/locations";
+import { Products } from "./products/Products"
 
 export const ApplicationViews = () => {
     return (
@@ -11,6 +13,12 @@ export const ApplicationViews = () => {
             </Route>
             <Route path="/products">
                 <Products />
+            </Route>
+            <Route path="/employees">
+                <Employees />
+            </Route>
+            <Route path="/employeeForm">
+                <EmployeeForm />
             </Route>
         </>
     )
