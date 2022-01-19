@@ -14,7 +14,7 @@ export const Locations = () => {
         []
     )
     return (
-        <>
+        <div>
             {
                 locations.map(
                     (location) => {
@@ -27,6 +27,6 @@ export const Locations = () => {
                     }
                 )
             }
-        </>
+        </div>
      )
 }
