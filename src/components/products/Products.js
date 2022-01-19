@@ -14,7 +14,7 @@ export const Products = () => {
      []  
     )
     return (
-       <>
+       <div>
             {
                 products.map((product) => {
                     return <div key={`product--${product.id}`}>
@@ -24,6 +24,6 @@ export const Products = () => {
                     </div>
                 })
             }
-       </> 
+       </div> 
     )
 }
